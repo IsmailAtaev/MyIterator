@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IIterator&lt;TIn&gt;">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAAAAIAAAAgAA=</HashCode>
+      <FileName>IIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IIterable&lt;TOut&gt;">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>IIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomIterator&lt;T&gt;">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAEAAAAAAAAAAgAAAAAAAAJAAAgEA=</HashCode>
+      <FileName>IIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IterateByPredicate&lt;T&gt;">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAgAEAgAAgAMAAAAAAAAAAgAA=</HashCode>
+      <FileName>IIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
