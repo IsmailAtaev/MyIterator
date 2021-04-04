@@ -9,6 +9,11 @@ bool predicate(int number)
 	return number > 5;
 }
 
+bool isEven(int number)
+{
+	return number % 2 == 0;
+}
+
 int main(int argc, char* args[])
 {
 	Queue<int> queue;
@@ -17,11 +22,12 @@ int main(int argc, char* args[])
 		queue.Enqueue(i);
 	}
 
-	IIterator<int>* iteratorPredicate = new IterateByPredicate<int>(&queue, predicate);
-
-	while (iteratorPredicate->moveNext())
+	IIterator<int>* defIter = queue.getIterator();
+	IIterator<int>* iteratorPredicate = new IterateByPredicate<int>(defIter, predicate);
+	IIterator<int>* iteratorEvenAndBiggerFive = new IterateByPredicate<int>(iteratorPredicate, isEven);
+	while (iteratorEvenAndBiggerFive->moveNext())
 	{
-		cout << iteratorPredicate->getCurrent() << endl;
+		cout << iteratorEvenAndBiggerFive->getCurrent() << endl;
 	}
 
 	delete iteratorPredicate;

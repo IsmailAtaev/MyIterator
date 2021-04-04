@@ -87,9 +87,9 @@ private:
 	bool (*_predicate)(T);
 	T current;
 public:
-	IterateByPredicate(IIterable<T>* iterable, bool (*predicate)(T))
+	IterateByPredicate(IIterator<T>* iterator, bool (*predicate)(T))
 	{
-		this->_iterator = iterable->getIterator();
+		this->_iterator = iterator;
 		this->_predicate = predicate;
 	}
 
@@ -126,6 +126,5 @@ public:
 
 	~IterateByPredicate()
 	{
-		delete this->_iterator;
 	}
 };
