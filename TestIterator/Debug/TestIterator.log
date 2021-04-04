@@ -1,3 +1,0 @@
-﻿  Source.cpp
-C:\Users\Ismail\source\repos\TestIterator\TestIterator\IIterator.h(57): warning C4715: CustomIterator<int>::moveNext: значение возвращается не при всех путях выполнения
-  TestIterator.vcxproj -> C:\Users\Ismail\source\repos\TestIterator\Debug\TestIterator.exe
