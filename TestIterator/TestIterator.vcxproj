@@ -140,11 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="IIterator.cpp" />
+    <ClCompile Include="Person.cpp" />
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IIterator.h" />
+    <ClInclude Include="Person.h" />
     <ClInclude Include="Queue.h" />
   </ItemGroup>
   <ItemGroup>
